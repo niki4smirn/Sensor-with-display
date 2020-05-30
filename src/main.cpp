@@ -56,5 +56,5 @@ void loop(){
   display.drawString(0, 32, "Temp: " + String(f) + "F"); 
                         // "Температура: "
   display.display();
-  delay(2000);
+  delay(2000);// 123
 }
