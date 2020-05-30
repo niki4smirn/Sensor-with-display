@@ -45,8 +45,7 @@ void loop(){
   // то выходим и пробуем снова: 
   if (isnan(h) || isnan(t) || isnan(f)){
     display.clear();  //  очищаем дисплей
-    display.drawString(5,0, "Failed DHT");
-                         // "Не удалось прочесть данные от датчика DHT"
+    display.drawString(5,0, "Failed DHT");  // "Не удалось прочесть данные от датчика DHT"
     return;
   }
   display.clear();
